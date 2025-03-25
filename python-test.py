@@ -20,3 +20,23 @@ print(msg)
 # Indentation: Python uses indentation (spaces or tabs) to define blocks of code. For example, in loops or functions, the code inside the block must be indented.
 # Case Sensitivity: Python is case-sensitive, so msg and Msg would be treated as different variables.
 # No Semicolons: Unlike some other languages (e.g., C, Java), Python does not require semicolons (;) to terminate statements.
+
+# My Notes:
+# must always use a virtual environment through VSCode ~ either as venv or conda
+# this prevents any issues of conflicting dependencies and what-the-who-ha.
+# python syntax rules looks different from javascript
+# it relies on indentations for IntelliSense to determine blocks of code
+# semi-colons (;) are not needed to terminate statements
+# also CASE-SENSITIVE variables
+
+# What is Flask? => for Python backendfrom flask import Flask
+# Microframework ~ used to build smaller REST APIs ~ smaller-scale web applications
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Hello, Flask!"
+
+if __name__ == '__main__':
+    app.run(debug=True)

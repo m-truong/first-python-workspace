@@ -40,3 +40,18 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+# What is Django?
+# Type: Full-stack framework
+# Philosophy: Django is a "batteries-included" framework, meaning it comes with many built-in features like an ORM (Object-Relational Mapping), authentication, admin panel, and more. It emphasizes rapid development and clean, pragmatic design.
+
+# Features:
+# Built-in database support (via ORM).
+# Authentication and user management out of the box.
+# Scalable and secure.
+# Ideal for large, complex projects.
+
+# Use Cases:
+# Enterprise-level applications.
+# Content management systems (CMS).
+# E-commerce platforms.

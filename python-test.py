@@ -6,5 +6,6 @@
 
 # msg is a variable that stores the value "Roll a dice!".
 # The (=) operator is used to assign the value on the right-hand side ("Roll a dice!") to the variable on the left-hand side (msg).
+# In Python, you don't need to declare the type of the variable explicitly (e.g., string, int). Python infers the type automatically based on the value.
 msg = "Roll a dice!"
 print(msg)

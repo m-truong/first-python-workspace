@@ -9,6 +9,9 @@
 # In Python, you don't need to declare the type of the variable explicitly (e.g., string, int). Python infers the type automatically based on the value.
 msg = "Roll a dice!"
 
-# print(msg)
 # print() is a built-in Python function used to display output to the console.
+# When you start typing print, notice how IntelliSense presents auto-completion options.
 print(msg)
+
+# Lines starting with # are comments.
+# Comments are ignored by the Python interpreter and are used to explain the code or provide additional context for developers.

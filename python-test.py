@@ -32,14 +32,14 @@ print(msg)
 # What is Flask? => for Python backendfrom flask import Flask
 # Microframework ~ used to build smaller REST APIs ~ smaller-scale web applications
 
-app = Flask(__name__)
+# app = Flask(__name__)
 
-@app.route('/')
-def home():
-    return "Hello, Flask!"
+# @app.route('/')
+# def home():
+#     return "Hello, Flask!"
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
 
 # What is Django?
 # Type: Full-stack framework

@@ -15,3 +15,8 @@ print(msg)
 
 # Lines starting with # are comments.
 # Comments are ignored by the Python interpreter and are used to explain the code or provide additional context for developers.
+
+# General Python Syntax Rules:
+# Indentation: Python uses indentation (spaces or tabs) to define blocks of code. For example, in loops or functions, the code inside the block must be indented.
+# Case Sensitivity: Python is case-sensitive, so msg and Msg would be treated as different variables.
+# No Semicolons: Unlike some other languages (e.g., C, Java), Python does not require semicolons (;) to terminate statements.

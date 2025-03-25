@@ -55,3 +55,15 @@ if __name__ == '__main__':
 # Enterprise-level applications.
 # Content management systems (CMS).
 # E-commerce platforms.
+
+from django.http import HttpResponse
+from django.urls import path
+from django.conf import settings
+from django.conf.urls.static import static
+
+def home(request):
+    return HttpResponse("Hello, Django!")
+
+urlpatterns = [
+    path('', home),
+]

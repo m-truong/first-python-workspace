@@ -65,6 +65,7 @@ def home(request):
     return HttpResponse("Hello, Django!")
 
 # The urlpatterns List is a list that maps URL paths to view functions. It is a key part of Django's URL routing system.
+# The path function is used to define a route. In this case, the empty string ('') represents the root URL (e.g., http://localhost:8000/).
 urlpatterns = [
     path('', home),
 ]

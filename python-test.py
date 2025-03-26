@@ -64,6 +64,7 @@ from django.conf.urls.static import static
 def home(request):
     return HttpResponse("Hello, Django!")
 
+# The urlpatterns List is a list that maps URL paths to view functions. It is a key part of Django's URL routing system.
 urlpatterns = [
     path('', home),
 ]
